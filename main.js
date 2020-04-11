@@ -27,7 +27,7 @@ function upgradeGoldPerClick(){
         gameData.gold -= gameData.clickUpgradeCost
 
         gameData.goldPerClick += 1
-        gameData.clickUpgradeCost *= 2
+        gameData.clickUpgradeCost *= 1.2
 
     }
 }
